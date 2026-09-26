@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine On
+RewriteRule ^api/login$ api/login.php [L]
+RewriteRule ^api/create-account$ api/create-account.php [L]
+RewriteRule ^api/list-accounts$ api/list-accounts.php [L]
